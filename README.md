@@ -1,7 +1,7 @@
 # Prime-or-Not
 Java program to check whether the given number is Prime or Not
 import java.util.Scanner; 
-class PrimeCheck 
+class Prime 
 { 
      public static void main(String args[]) 
      {		 
@@ -9,9 +9,9 @@ class PrimeCheck
         	Scanner scan= new Scanner (System.in); 	
         System.out.println("Enter a number:");              	
         int num=scan.nextInt();   
-      	for(int i=2;i<=num/2;i++) 	
+      	for(int j=2;j<=num/2;j++) 	
        { 
-          temp=num%i; 	
+          temp=num%j; 	
           if(temp==0) 	 
           { 
                isPrime=false; 	 
